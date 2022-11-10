@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    
+    <!-- Elemento de imagem (tag auto-closed) -->
+    <img src="img.png"/>
+
+    <!-- Elemento de paragrafo (tag não auto-closed) -->
+    <p id="paragrafo1" class="xxx yyy">Conteúdo do meu paragrafo.</p>
+    <p id="paragrafo2" class="xxx yyy">Conteúdo do meu paragrafo.</p>
+
+
+    <picture>
+        <source srcset="smaller_landscape.jpg" media="(max-width: 40em) and (orientation: landscape)">
+        <source srcset="smaller_portrait.jpg"  media="(max-width: 40em) and (orientation: portrait)">
+        <source srcset="default_landscape.jpg" media="(min-width: 40em) and (orientation: landscape)">
+        <source srcset="default_portrait.jpg"  media="(min-width: 40em) and (orientation: portrait)">
+        <img srcset="default_landscape.jpg" alt="My default image">
+    </picture>
+
+
+</body>
+</html>

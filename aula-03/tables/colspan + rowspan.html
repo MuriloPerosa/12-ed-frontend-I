@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Murilo</td>
+                <td>24 anos</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Murilo</td>
+                <td colspan="2" rowspan="2">18 anos</td>
+            </tr>
+            <tr>
+                <td>Murilo</td>
+            </tr>
+            <tr>
+                <td>Bernardo</td>
+                <td>18 anos</td>
+                <td>Vendedor</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Marca</th>
+                <th>Ano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Hatch</td>
+                <td>Gol</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Fox</td>
+                <td>2015</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Sedan</td>
+                <td>Jetta</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>Focus</td>
+                <td>2016</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
