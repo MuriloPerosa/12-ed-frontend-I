@@ -1,0 +1,27 @@
+.ex1 {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+}
+
+.ex2 {
+    width: 50%;
+    height: 200px;
+    background-color: yellow;
+}
+
+
+.ex3 {
+    width: 80vw;
+    height: 20vh;
+    background-color: red;
+}
+
+/*
+ px  - pixels
+ %   - porcentagem
+ rem - root element based
+ em  - parent element based 
+ vh  - altura total da view
+ vw  - largura total da view
+*/

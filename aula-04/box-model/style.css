@@ -1,0 +1,14 @@
+div {
+  background-color: lightgrey;
+  width: 300px;
+  height: 500px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+  /* min-height: 500px;
+  max-height: 1000ppx;
+
+  min-width: 500px;
+  max-width: 1000ppx; */
+}

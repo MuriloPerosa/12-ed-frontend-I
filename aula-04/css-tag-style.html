@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tag Style</title>
+
+    <style>
+        p {
+            /* color: red !important; */
+            color: red;
+            font-size: 5px;
+        }
+        
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+        }
+
+        .text-bold {
+            font-weight: bold;
+        }
+
+        .text-italic {
+            font-style: italic;
+        }
+
+        #pBgGreen {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <p id="pBgGreen" class="text-bold text-italic">Esta é uma tag com CSS aplicado inline.</p>
+    <p style="color: blue;">Esta é uma tag com CSS aplicado inline.</p>
+    <p class="text-italic">Esta é uma tag com CSS aplicado inline.</p>
+
+    <div></div>
+
+    <span class="text-bold text-italic">Olá Mundo</span>
+</body>
+</html>

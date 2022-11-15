@@ -1,0 +1,25 @@
+.normal {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+.round1 {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    /* border-radius: 20%; */
+}
+
+.round2 {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 8px;
+    /* border-radius: 20%; */
+}
+
+.round3 {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 12px;
+    /* border-radius: 20%; */
+}

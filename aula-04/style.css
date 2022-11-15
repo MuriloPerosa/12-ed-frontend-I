@@ -1,0 +1,23 @@
+p {
+    /* color: red !important; */
+    color: red;
+    font-size: 5px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+#pBgGreen {
+    background-color: green;
+}

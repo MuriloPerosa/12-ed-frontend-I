@@ -1,0 +1,29 @@
+.one {
+    border-style: solid;
+    border-width: 5px 20px;
+}
+
+.two {
+    border-style: solid;
+    border-width: 20px 5px;
+}
+
+.three {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+}
+
+.four {
+    border-style: solid;
+    border-width: thick;
+}
+
+.five {
+    border-style: solid;
+    border-width: medium;
+}
+
+.six {
+    border-style: solid;
+    border-width: thin;
+}
