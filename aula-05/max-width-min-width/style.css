@@ -1,0 +1,16 @@
+.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid green;
+}
+
+.ex2 {
+    min-width: 300px;
+    max-width: 500px;
+
+    /* min-height: 300px;
+    max-height: 500px; */
+
+    margin: auto;
+    border: 3px solid green;
+}
