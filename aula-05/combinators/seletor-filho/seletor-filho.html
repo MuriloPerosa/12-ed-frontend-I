@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Seletor filho</h2>
+
+    <p>O seletor filho (>) seleciona todos os elementos que são filhos de um elemento especificado.</p>
+
+    <div>
+        <p>Parágrafo 1 na div.</p>
+        <p>Parágrafo 2 na div.</p>
+        <section>
+            <!-- não é filho, mas é descendente -->
+            <p>Parágrafo 3 na div. (dentro de um elemento section)</p>
+        </section>
+        <p>Parágrafo 4 na div.</p>
+    </div>
+
+    <p>Parágrafo 5. Não está em uma div.</p>
+    <p>Parágrafo 6. Não está em uma div.</p>
+    
+    <span class="par">meu span</span>
+
+    <main class="principal">
+        <p class="par">meu paragrafo</p>
+        <br>
+        <span class="par">meu span</span>
+
+        <div>
+            <span class="par">meu span</span>
+        </div>
+    </main>
+</body>
+
+</html>

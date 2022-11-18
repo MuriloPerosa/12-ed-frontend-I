@@ -1,0 +1,16 @@
+div {
+  background: rgb(76, 175, 80);
+  padding: 10px;
+}
+
+div.primeira {
+  background: rgba(76, 175, 80, 0.1);
+}
+
+div.segunda {
+  background: rgba(76, 175, 80, 0.3);
+}
+
+div.terceira {
+  background: rgba(76, 175, 80, 0.6);
+}

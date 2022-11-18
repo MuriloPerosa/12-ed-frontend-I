@@ -1,0 +1,7 @@
+h1.before::before {
+  content: url(./smiley.gif);
+}
+
+h1.after::after {
+  content: url(./smiley.gif);
+}

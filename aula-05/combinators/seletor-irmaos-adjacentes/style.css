@@ -1,0 +1,7 @@
+div + p {
+  background-color: yellow;
+}
+
+.texto + .posterior {
+  color: red;
+} 

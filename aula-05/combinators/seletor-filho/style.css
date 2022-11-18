@@ -1,0 +1,12 @@
+div > p {
+  background-color: yellow;
+}
+
+.par {
+  border: 1px solid black;
+  background-color: red;
+}
+
+.principal > .par {
+  background-color: green;
+}

@@ -1,0 +1,14 @@
+img {
+  width: 400px;
+}
+img.ex1 {
+  opacity: 0.2;
+}
+
+img.ex2 {
+  opacity: 0.5;
+}
+
+img.ex3 {
+  opacity: 1;
+}

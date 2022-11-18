@@ -1,0 +1,23 @@
+div {
+  border: 1px solid;
+  position: absolute;
+  left: calc(
+    50vw - 167px
+  ); /* centralizar na horizontal: 50vw subtraido metade da largura total do elemento*/
+  bottom: calc(
+    50vh - 59px
+  ); /* centralizar na vertical: 50vh subtraido metade da altura total do elemento*/
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  display: inline-block;
+}
+img {
+  width: 35px;
+}
